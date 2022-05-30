@@ -1,10 +1,17 @@
 import React from 'react';
 
+import Layout from './components/Layout';
+import GlobalStyles from './styles/GlobalStyles';
+
 function App() {
   return (
-    <div>
-      <h1>ola tyson</h1>
-    </div>
+    <>
+      
+
+     
+      <Layout />
+      <GlobalStyles />
+    </>
   );
 }
 
