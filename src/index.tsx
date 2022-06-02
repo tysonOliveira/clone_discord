@@ -3,8 +3,6 @@ import ReactDOM from 'react-dom/client';
 
 import App from './App';
 
-// Video encerrado no minuto 41:38
-
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
