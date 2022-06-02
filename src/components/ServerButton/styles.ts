@@ -15,4 +15,24 @@ export const Button = styled.div<Props>`
   position: relative;
   cursor: pointer;
   border-radius: 50px;
+
+  > img {
+    width: 24px;
+    height: 24px;
+  }
+
+  &::before {
+
+  }
+
+  &::after {
+
+  }
+
+  transition: border-radius 0.2s, background-color 0.2s;
+
+  &.active, &:hover {
+    border-radius: 16px;
+    background-color: ${props => props.isHome ? 'var(--rocketseat)' : 'var(--discord)'};
+  }
 `;

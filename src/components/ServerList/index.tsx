@@ -22,6 +22,10 @@ function ServerList() {
       <ServerButton mentions={14} />
       <ServerButton />
       <ServerButton />
+      <ServerButton />
+      <ServerButton />
+      <ServerButton />
+      <ServerButton />
     </Container>
   );
 }
