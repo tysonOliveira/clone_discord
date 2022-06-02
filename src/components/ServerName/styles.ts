@@ -18,4 +18,4 @@ export const Title = styled.div`
   color: var(--white);
 `;
 
-export const ExpandIcon = styled.div``;
+
